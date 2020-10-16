@@ -9,12 +9,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
 @Configuration
-@ComponentScan(value = "model")
+@ComponentScan(value="model")
 public class ConfigFile {
-    @Bean
-    ToyotaSupra getToyotaSupra(){
-        return new ToyotaSupra();
-    }
 //    @Bean
 //    CarFactory getCar(){
 //        CarFactory carFactory=new CarFactory();
@@ -25,6 +21,10 @@ public class ConfigFile {
 //    @Bean
 //    Toyota getToyota(){
 //        return new Toyota();
+//    }
+//    @Bean
+//    ToyotaSupra getToyotaSupra(){
+//        return new ToyotaSupra();
 //    }
 
 }
