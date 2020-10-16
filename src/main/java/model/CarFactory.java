@@ -11,7 +11,7 @@ public class CarFactory {
         this.toyota=toyotaSupra;
     }
     public Toyota getToyota(){
-        return toyota;
+        return new ToyotaSupra();
     }
 
 
