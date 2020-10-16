@@ -9,7 +9,7 @@ public class Main {
 
         ApplicationContext context = new AnnotationConfigApplicationContext(ConfigFile.class);
 
-        CarFactory carBean=context.getBean(CarFactory.class);
+        CarFactory carBean = context.getBean(CarFactory.class);
         System.out.println(carBean.getToyota().getName());
     }
 }
